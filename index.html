@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    <header class="header">
+        <ul class="rps black-shadow">
+            <li>Rock 🪨</li>
+            <li>Paper 📄</li>
+            <li>Scissors ✂</li>
+        </ul>
+        <H2 class="black-shadow">Welcome!</H2>
+        <nav class="header__nav">
+            <ul class="nav__list black-shadow">
+                <li>Contact</li>
+                <li>Github Code</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="main-wrapper">
+        <aside>
+            <div class="score-aside">
+                <ul>
+                    <li id="userScoreElement"></li>
+                    <li id="computerScoreElement"></li>
+                </ul>
+            </div>
+        </aside>
+        <main class="main-content">
+            <h1>Play your round!</h1>
+            <div class="main__buttons-container">
+                <h3></h3>
+                <button id="1">Rock</button>
+                <button id="2">Paper</button>
+                <button id="3">Scissors</button>
+            </div>
+            <div class="definion-match-container">
+                <h2 id="definion-match"></h2>
+            </div>
+            </main>
+    </div>
+    <footer>
+    </footer>
     <script src="game.js"></script>
 </body>
 </html>
